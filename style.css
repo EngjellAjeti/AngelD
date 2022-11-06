@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+:root {
+    --black-2: rgba(0, 0, 0, 0.29);
+    --black: rgba(0,0,0,1);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.menulg{
+    display: none;
+}
+body{
+    
+    background-image: url('./Images/background..png');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-attachment: fixed;
+}
+
+li, a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding-top: 35px; 
+}
+
+.logo{
+
+cursor: pointer;
+}
+
+.navlink{
+    list-style: none;
+}
+
+.navlink li{
+   display: inline-block;
+   padding: 0px 20px;
+}
+
+.navlink li a {
+    transition: all 0.3s ease 0s;
+}
+.navlink li a:hover {
+    transition: all 0.3s ease 0s;
+    color: red;
+}
+main {
+    height: calc(70vh);
+    display: flex;
+    align-items: center;
+}
+
+main .container {
+    margin: auto auto auto;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .laptop img {
+    box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+
+main p {
+    color: white;
+    margin: 15px 0px 25px 0px;
+}
+
+
+section#services {
+    padding: 60px 0px;
+    color: white;
+    background-color: #111111;
+    
+}
+
+section#services .reasons {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+section#services .card {
+    padding: 40px 25px;
+    background: var(--black);
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    transition: all .6s ease;
+    position: relative;
+    border-radius: 20px;
+    width: 31%;
+}
+
+section#services .card:hover span {
+    color: white;
+}
+
+section#services .card:hover .card-body {
+    top: -30px;
+}
+
+section#services .card-body {
+    position: relative;
+}
+
+section#services .card span,
+section#services .card h4 {
+    font-size: 20px;
+}
+.middle{
+    text-align: center;
+}
+section#services .card span {
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+section#services .card h4 {
+    font-weight: 400;
+    margin: 20px 0px;
+}
+
+section#services .card p {
+    font-size: 14px;
+}
+
+section#testimoinals {
+    padding: 60px 0px;
+    color: white;
+    background-image: url(./images/backgroundtest..png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+section#testimoinals  .reasons {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+
+section#testimoinals  .card {
+    padding: 40px 25px;
+    background: var(--black-2);
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    transition: all .6s ease;
+    position: relative;
+    border-radius: 20px;
+}
+
+section#testimoinals  .card:hover span {
+    color: white;
+}
+
+section#testimoinals  .card:hover .card-body {
+    top: -30px;
+}
+
+section#testimoinals  .card-body {
+    position: relative;
+}
+
+section#testimoinals  .card span,
+section#testimoinals  .card h4 {
+    font-size: 20px;
+}
+
+section#testimoinals  .card span {
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+section#testimoinals  .card h4 {
+    font-weight: 400;
+    margin: 20px 0px;
+}
+
+section#testimoinals  .card p {
+    font-size: 14px;
+}
+
+.footer{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.socials{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.footerimg{
+    width: 150px 150px;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px 50px 50px;
+}
+
+.footer img{
+    width: 50px;
+    margin: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+:root {
+    --black-2: rgba(0, 0, 0, 0.29);
+    --black: rgba(0,0,0,1);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.menulg{
+    display: flex;
+    justify-content: space-between;
+    width: 30px;
+    margin-left: 90px;
+}
+
+body{
+    
+    background-image: url('./Images/background..png');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-attachment: fixed;
+}
+
+li, a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    display: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding-top: 35px; 
+}
+
+.logo{
+    padding: 40px;
+    cursor: pointer;
+}
+
+.navlink{
+    list-style: none;
+}
+
+.navlink li{
+   display: inline-block;
+   padding: 0px 20px;
+}
+
+.navlink li a {
+    transition: all 0.3s ease 0s;
+}
+.navlink li a:hover {
+    transition: all 0.3s ease 0s;
+    color: red;
+}
+main {
+    height: calc(70vh);
+    display: flex;
+    align-items: center;
+}
+
+main .container {
+    margin: auto auto auto;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .laptop img {
+    
+    box-sizing: content-box;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+main h1 {
+    padding: 40px;
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+
+main p {
+    padding: 40px;
+    color: white;
+    margin: 15px 0px 25px 0px;
+}
+
+main .laptop img {
+    color: white;
+    padding-left: 5px;
+}
+
+section#services {
+    padding: 60px 0px;
+    color: white;
+    background-color: #111111;
+    
+}
+
+section#services .reasons {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section#services .card {
+    padding: 40px 25px;
+    background: var(--black);
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    transition: all .6s ease;
+    position: relative;
+    border-radius: 20px;
+    width: 80%;
+}
+
+section#services .card:hover span {
+    color: white;
+}
+
+section#services .card:hover .card-body {
+    top: -30px;
+}
+
+section#services .card-body {
+    position: relative;
+}
+
+section#services .card span,
+section#services .card h4 {
+    font-size: 20px;
+}
+.middle{
+    text-align: center;
+}
+section#services .card span {
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+section#services .card h4 {
+    font-weight: 400;
+    margin: 20px 0px;
+}
+
+section#services .card p {
+    font-size: 14px;
+}
+
+section#testimoinals {
+    padding: 60px 0px;
+    color: white;
+    background-image: url(./images/backgroundtest..png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+section#testimoinals  .reasons {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    
+    text-align: center;
+}
+
+section#testimoinals  .card {
+    padding: 40px 25px;
+    background: var(--black-2);
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    transition: all .6s ease;
+    position: relative;
+    border-radius: 20px;
+    width: 80%;
+}
+
+section#testimoinals  .card:hover span {
+    color: white;
+}
+
+section#testimoinals  .card:hover .card-body {
+    top: -30px;
+}
+
+section#testimoinals  .card-body {
+    position: relative;
+}
+
+section#testimoinals  .card span,
+section#testimoinals  .card h4 {
+    font-size: 20px;
+}
+
+section#testimoinals  .card span {
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+section#testimoinals  .card h4 {
+    font-weight: 400;
+    margin: 20px 0px;
+}
+
+section#testimoinals  .card p {
+    font-size: 14px;
+}
+
+.footer{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.socials{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.footerimg{
+    display: none;
+}
+.text{
+    display: flex;
+     align-items: center;
+    padding: 50px 50px 50px 50px;
+    margin-left: 90px;
+}
+
+.footer img{
+    width: 50px;
+    margin: 10px;
+}
+  }
